@@ -1,0 +1,381 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("twitter.com") {
+
+/*===== "広告"を非表示 =====*/
+div[data-component-term="japanese_ad"] ,
+#j_ad {
+        display: none !important;
+}
+
+/*===== "似ているユーザー"を非表示 =====*/
+div[data-component-term="similar_user_recommendations"] {
+        display: none !important;
+}
+
+/*===== "おすすめユーザー"を非表示 =====*/
+div[data-component-term="dashboard-user-recommendations"] ,
+.dashboard-user-recommendations {
+        display: none !important;
+}
+
+div[data-component-term="flex-module"] ,
+.flex-module {
+        display: none !important;
+}
+
+/*===== "トレンド"を非表示 =====*/
+div[data-component-term="trends"] ,
+.trends {
+        display: none !important;
+}
+
+/*===== "フッター"を非表示 =====*/
+div[data-component-term="site-footer"] ,
+.site-footer {
+        display: none !important;
+}
+
+
+/*==== ALL =====*/
+*{
+margin:0 !important;
+padding:0 !important;
+font-family:HiraKakuPro-W3 !important;
+font-size:11px !important;
+line-height:1.1;
+}
+
+#signin_menu{
+        display:inline-block !important;
+        position:relative !important;
+        width:auto !important;
+}
+
+#header2 h1,
+#header2 a,
+#header2 img{
+        display:none !important;
+        width:auto !important;
+        float: none;
+}
+
+body{
+        margin-bottom:2.5em !important;
+        background:#fff !important;
+        width:auto !important;
+        float: left;
+}
+
+.js-topbar {
+        width:200px !important;
+        clear: both;
+}
+
+.container {
+        width:200px !important;
+        clear: both;
+}
+
+.pull-right {
+        width:200px !important;
+        float: left !important;
+        padding: 3px 0 0 30px !important;
+}
+
+/*===== ログイン画面 =====*/
+.front-bg {
+        width:200px !important;
+        float: left !important;
+        clear: both !important;
+}
+
+.front-bg {
+        display: none !important;
+}
+
+.front-card{
+        width:190px !important;
+        float: left !important;
+        clear: both !important;
+}
+
+.front-welcome{
+        display: none !important;
+}
+
+.front-welcome-text{
+        display: none !important;
+}
+
+.front-container-full-signup{
+        margin: -300px 0 0 -635px !important;
+        width:190px !important;
+        float: left !important;
+        clear: both !important;
+}
+
+.js-front-signin {
+        margin: 0 1200px !important;
+        width:200px !important;
+        margin-left:0px !important;
+        clear: both !important;
+}
+
+.username{
+        width:150px !important;
+        margin-left:0px !important;
+}
+
+.password-signin {
+        width:150px !important;
+        margin-left:0px !important;
+}
+
+.js-front-signup{
+        display: none !important;
+}
+.remember-forgot{
+        width:170px !important;
+}
+
+.inline-list {
+        width:190px !important;
+}
+
+
+/*===== ログアウト後のログイン画面 =====*/
+.dropdown-signin {
+        margin: 5px 60px 0 0 !important;
+        float: left !important;
+        clear: none !important;
+}
+
+.dropdown-form {
+        margin: 5px 60px 0 0 !important;
+        width:130px !important;
+        float: left !important;
+        clear: both !important;
+}
+
+.signin {
+        margin: 5px 60px 0 0 !important;
+        width:130px !important;
+        float: left !important;
+        clear: both !important;
+}
+
+.gallery {
+        display: none !important;
+}
+
+.recaptcha {
+        margin: 50px 0 0 0 !important;
+        width:200px !important;
+        float: left !important;
+        clear: both;
+}
+
+.recaptcha_theme_white {
+        margin: 50px 0 0 0 !important;
+        width:200px !important;
+        float: left !important;
+        clear: both;
+}
+
+
+.textbox {
+        width:130px !important;
+        float: left !important;
+        clear: both !important;
+}
+
+.email-input{
+        width:100px !important;
+        float: left !important;
+        clear: both !important;
+}
+
+.js-password{
+        width:130px !important;
+        float: left !important;
+        clear: both !important;
+}
+
+.js-password-field {
+        width:100px !important;
+        float: left !important;
+        clear: both !important;
+}
+
+.modal-content{
+        margin: 30px 0 0 -15px !important;
+        width: 180px !important;
+        float: left !important;
+        clear: both;
+}
+/*===== ここまでログイン画面 =====*/
+
+
+.topbar-tweet-btn {
+        display: none !important;
+}
+
+.dashboard {
+        width:200px !important;
+        clear: both;
+}
+
+.js-mini-profile-stats-container {
+        padding: 45px 0 0 0 !important;
+}
+
+.home-tweet-box {
+        width: 190px !important;
+        clear: both;
+}
+
+.tweet-form condensed {
+        width: 190px !important;
+        clear: both;
+}
+
+#tweet-box-mini-home-profile {
+        width:195px !important;
+        clear: both;
+}
+
+#timeline{
+        width:200px !important;
+        float: left !important;
+        clear: both !important;
+}
+
+.content-main js-timeline-from-cache {
+        width:200px !important;
+        clear: both;
+}
+
+.content-header {
+        width:200px !important;
+        clear: both;
+}
+
+.stream-container {
+        width:200px !important;
+        float: left;
+        margin: 5px 0 0 0 !important;
+}
+
+.stream-footer {
+        width:200px !important;
+        float: left;
+}
+
+.hidden-replies-container {
+        width:200px !important;
+        float: left;
+}
+
+.js-expansion-container{
+        width:200px !important;
+        float: left;
+        margin: 10px 0 0 0 !important;
+}
+.rich-editor{
+        width:200px !important;
+        float: left;
+}
+
+/*===== TimeLine項目 =====*/
+img {
+        padding: 0 0 0 0 !important;
+        width:25px !important;
+        height:25px !important;
+}
+
+div.recaptcha_image img {
+        padding: 0 0 0 0 !important;
+}
+
+.stream-item-header {
+        padding: 5px 0 0 45px !important;
+}
+
+.js-tweet-text {
+        padding:  0 5px 0 45px !important;
+}
+
+#profile_popup {
+        width:200px !important;
+        clear: both;
+        float: left !important;
+}
+
+.draggable {
+        width:180px !important;
+}
+
+.js-timeline-from-cache{
+        padding: 5px 0 0 0 !important;
+}
+
+.permalink-header{
+        width:200px !important;
+        clear: both;
+        float: left !important;
+}
+
+.tweet-text{
+        width:200px !important;
+        clear: both;
+        float: left !important;
+        line-height:1.0;
+        margin: -10px 0px 0 -40px !important;
+}
+
+/*===== つながる項目 =====*/
+.connect-stream {
+        width:200px !important;
+        margin: 5px 0 0 0 !important;
+}
+
+.stream-items{
+        width:200px !important;
+        margin: 0px 0px 0px 0px !important;
+}
+
+.stream-item-activity-me {
+        width:200px !important;
+        margin: 5px 0px 0px 0px !important;
+}
+
+.js-tweet-text {
+        word-wrap: break-word !important;
+}
+
+/*===== 見つける項目 =====*/
+#discover-stories {
+        width:200px !important;
+        float: left;
+}
+
+#page-container {
+        width:200px !important;
+        float: left;
+}
+
+.discover-nav {
+        padding: 45px 0 0 0 !important;
+}
+
+/*===== プロフィール項目 =====*/
+.profile-nav {
+        padding: 45px 0 0 0 !important;
+}
+
+#bd{
+        padding: 45px 0 0 0 !important;
+}
+
+
+}
