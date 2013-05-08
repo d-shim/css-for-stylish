@@ -287,7 +287,9 @@ body{
 }
 
 /*===== TimeLine項目 =====*/
-img {
+/*img {*/
+/*** プロフィールアイコン画像 ***/
+img.js-action-profile-avatar{
         padding: 0 0 0 0 !important;
         width:25px !important;
         height:25px !important;
@@ -297,12 +299,18 @@ div.recaptcha_image img {
         padding: 0 0 0 0 !important;
 }
 
+/*** ユーザ名/ID ***/
 .stream-item-header {
-        padding: 5px 0 0 45px !important;
+        /*padding: 5px 0 0 45px !important;*/
+        padding: 5px 0 0 5px !important;
+}
+
+.account-group {
+        padding: 5px 0 0 5px !important;
 }
 
 .js-tweet-text {
-        padding:  0 5px 0 45px !important;
+        padding: 0 5px 0 45px !important;
 }
 
 #profile_popup {
