@@ -309,10 +309,6 @@ div.recaptcha_image img {
         padding: 5px 0 0 5px !important;
 }
 
-.js-tweet-text {
-        padding: 0 5px 0 45px !important;
-}
-
 #profile_popup {
         width:200px !important;
         clear: both;
@@ -333,12 +329,15 @@ div.recaptcha_image img {
         float: left !important;
 }
 
+
 .tweet-text{
-        width:200px !important;
+        /*width:200px !important;*/
+        width:190px !important;
         clear: both;
         float: left !important;
         line-height:1.0;
-        margin: -10px 0px 0 -40px !important;
+        padding: 5px 0px 3px 0px !important;
+        margin: 0px 0px 0px 5px !important;
 }
 
 /*===== つながる項目 =====*/
